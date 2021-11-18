@@ -18,8 +18,13 @@ console.log(surname);
 let color = prompt('inserisci il tuo colore preferito: ');
 console.log(color);
 
+let numeropre = parseInt(prompt('Inserisci il tuo numero preferito'));
+console.log(numeropre);
+numeropresum = numeropre + 5;
+console.log(numeropresum);
+
 let password = `
-       ${namez}${surname}${color}21
+       ${namez}${surname}${color}${numeropresum}
      `;
 
 console.log(password);
