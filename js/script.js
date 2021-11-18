@@ -19,10 +19,12 @@ let color = prompt('inserisci il tuo colore preferito: ');
 console.log(color);
 
 let password = `
-       ${nome}${cognome}${colorePref}21
+       ${namez}${surname}${color}21
      `;
 
 console.log(password);
+
+document.getElementById('password').innerHTML = password;
 
 
 
