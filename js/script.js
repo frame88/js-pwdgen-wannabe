@@ -10,10 +10,19 @@ Datevi sempre 5 minuti di tempo per capire bene cosa venga richiesto, poi passat
 */
 
 let namez = prompt('inserisci il tuo nome: ');
-let surname = prompt('inserisci il tuo cognnome: ');
-let color = prompt('inserisci il tuo colore preferito: ');
+console.log(namez);
 
-console.log(namez + surname + color);
+let surname = prompt('inserisci il tuo cognnome: ');
+console.log(surname);
+
+let color = prompt('inserisci il tuo colore preferito: ');
+console.log(color);
+
+let password = `
+       ${nome}${cognome}${colorePref}21
+     `;
+
+console.log(password);
 
 
 
