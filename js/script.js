@@ -9,9 +9,11 @@ Copiate questa descrizione nel vostro file js come commento.
 Datevi sempre 5 minuti di tempo per capire bene cosa venga richiesto, poi passate a scomporre in italiano i problemi ed infine traducete in JS.
 */
 
-let name = prompt('inserisci il tuo nome: ');
+let namez = prompt('inserisci il tuo nome: ');
 let surname = prompt('inserisci il tuo cognnome: ');
 let color = prompt('inserisci il tuo colore preferito: ');
+
+console.log(namez + surname + color);
 
 
 
