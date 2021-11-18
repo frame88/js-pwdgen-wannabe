@@ -20,11 +20,9 @@ console.log(color);
 
 let numeropre = parseInt(prompt('Inserisci il tuo numero preferito'));
 console.log(numeropre);
-numeropresum = numeropre + 5;
-console.log(numeropresum);
 
 let password = `
-       ${namez}${surname}${color}${numeropresum}
+       ${namez}${surname}${color}21
      `;
 
 console.log(password);
